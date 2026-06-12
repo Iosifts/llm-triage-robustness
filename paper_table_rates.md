@@ -1,0 +1,32 @@
+| Model | Condition | n | Flip % (95% CI) | Downgrade % (95% CI) | Over-escalation % (95% CI) |
+|---|---:|---:|---:|---:|---:|
+| Qwen2.5-7B-Instruct | reorder | 320 | 10.3% [7.4, 14.1] | 4.1% [2.4, 6.8] | 6.2% [4.1, 9.5] |
+| Qwen2.5-7B-Instruct | add_lowstakes | 320 | 6.6% [4.3, 9.8] | 3.4% [1.9, 6.0] | 3.1% [1.7, 5.7] |
+| Qwen2.5-7B-Instruct | add_highstakes | 320 | 3.1% [1.7, 5.7] | 1.2% [0.5, 3.2] | 1.9% [0.9, 4.0] |
+| Qwen2.5-7B-Instruct | compress | 320 | 5.3% [3.3, 8.3] | 3.1% [1.7, 5.7] | 2.2% [1.1, 4.4] |
+| Qwen2.5-7B-Instruct | expand | 320 | 2.8% [1.5, 5.3] | 1.2% [0.5, 3.2] | 1.6% [0.7, 3.6] |
+| Qwen2.5-7B-Instruct | paraphrase | 320 | 6.2% [4.1, 9.5] | 3.4% [1.9, 6.0] | 2.8% [1.5, 5.3] |
+| DeepSeek-R1-Distill-Qwen-7B | reorder | 320 | 11.2% [8.2, 15.2] | 10.0% [7.2, 13.8] | 1.2% [0.5, 3.2] |
+| DeepSeek-R1-Distill-Qwen-7B | add_lowstakes | 320 | 4.1% [2.4, 6.8] | 3.8% [2.2, 6.4] | 0.3% [0.1, 1.7] |
+| DeepSeek-R1-Distill-Qwen-7B | add_highstakes | 320 | 2.5% [1.3, 4.9] | 2.2% [1.1, 4.4] | 0.3% [0.1, 1.7] |
+| DeepSeek-R1-Distill-Qwen-7B | compress | 320 | 3.1% [1.7, 5.7] | 0.9% [0.3, 2.7] | 2.2% [1.1, 4.4] |
+| DeepSeek-R1-Distill-Qwen-7B | expand | 320 | 4.4% [2.6, 7.2] | 3.1% [1.7, 5.7] | 1.2% [0.5, 3.2] |
+| DeepSeek-R1-Distill-Qwen-7B | paraphrase | 320 | 6.9% [4.6, 10.2] | 2.5% [1.3, 4.9] | 4.4% [2.6, 7.2] |
+| gemma-2-9b-it | reorder | 320 | 17.5% [13.7, 22.0] | 4.4% [2.6, 7.2] | 13.1% [9.9, 17.3] |
+| gemma-2-9b-it | add_lowstakes | 320 | 5.9% [3.8, 9.1] | 4.7% [2.9, 7.6] | 1.2% [0.5, 3.2] |
+| gemma-2-9b-it | add_highstakes | 320 | 5.0% [3.1, 8.0] | 3.1% [1.7, 5.7] | 1.9% [0.9, 4.0] |
+| gemma-2-9b-it | compress | 320 | 3.1% [1.7, 5.7] | 1.2% [0.5, 3.2] | 1.9% [0.9, 4.0] |
+| gemma-2-9b-it | expand | 320 | 4.1% [2.4, 6.8] | 2.2% [1.1, 4.4] | 1.9% [0.9, 4.0] |
+| gemma-2-9b-it | paraphrase | 320 | 3.8% [2.2, 6.4] | 1.9% [0.9, 4.0] | 1.9% [0.9, 4.0] |
+| Llama-3.1-8B-Instruct | reorder | 320 | 12.5% [9.3, 16.6] | 0.3% [0.1, 1.7] | 12.2% [9.0, 16.2] |
+| Llama-3.1-8B-Instruct | add_lowstakes | 320 | 2.5% [1.3, 4.9] | 0.9% [0.3, 2.7] | 1.6% [0.7, 3.6] |
+| Llama-3.1-8B-Instruct | add_highstakes | 320 | 2.2% [1.1, 4.4] | 0.9% [0.3, 2.7] | 1.2% [0.5, 3.2] |
+| Llama-3.1-8B-Instruct | compress | 320 | 0.9% [0.3, 2.7] | 0.3% [0.1, 1.7] | 0.6% [0.2, 2.2] |
+| Llama-3.1-8B-Instruct | expand | 320 | 3.1% [1.7, 5.7] | 0.3% [0.1, 1.7] | 2.8% [1.5, 5.3] |
+| Llama-3.1-8B-Instruct | paraphrase | 320 | 2.5% [1.3, 4.9] | 1.6% [0.7, 3.6] | 0.9% [0.3, 2.7] |
+| Mistral-7B-Instruct-v0.3 | reorder | 320 | 7.8% [5.3, 11.3] | 5.6% [3.6, 8.7] | 2.2% [1.1, 4.4] |
+| Mistral-7B-Instruct-v0.3 | add_lowstakes | 320 | 6.9% [4.6, 10.2] | 5.0% [3.1, 8.0] | 1.9% [0.9, 4.0] |
+| Mistral-7B-Instruct-v0.3 | add_highstakes | 320 | 4.1% [2.4, 6.8] | 3.1% [1.7, 5.7] | 0.9% [0.3, 2.7] |
+| Mistral-7B-Instruct-v0.3 | compress | 320 | 3.8% [2.2, 6.4] | 2.8% [1.5, 5.3] | 0.9% [0.3, 2.7] |
+| Mistral-7B-Instruct-v0.3 | expand | 320 | 5.0% [3.1, 8.0] | 1.2% [0.5, 3.2] | 3.8% [2.2, 6.4] |
+| Mistral-7B-Instruct-v0.3 | paraphrase | 320 | 4.1% [2.4, 6.8] | 2.2% [1.1, 4.4] | 1.9% [0.9, 4.0] |

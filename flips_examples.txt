@@ -1,0 +1,99 @@
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2006-3730 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 8.8  EPSS 0.8688  KEV False  asset=internal developer workstation
+  original : Integer overflow in Microsoft Internet Explorer 6 on Windows XP SP2 allows remote attackers to cause a denial of service (crash) and execute arbitrary code via a 0x7fffffff argument to the setSlice me
+  perturbed: Integer overflow in Microsoft Internet Explorer 6 on Windows XP SP2 allows remote attackers to cause a denial of service (crash) and execute arbitrary code via a 0x7fffffff argument to the setSlice me (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2018-12464 | condition=add_lowstakes | ACT -> ATTEND
+  facts: CVSS 10.0  EPSS 0.7644  KEV False  asset=internal developer workstation
+  original : A SQL injection vulnerability in the web administration and quarantine components of Micro Focus Secure Messaging Gateway allows an unauthenticated remote attacker to execute arbitrary SQL statements 
+  perturbed: Background note: this product is used mainly by hobbyists for small personal projects. A SQL injection vulnerability in the web administration and quarantine components of Micro Focus Secure Messaging 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2018-12464 | condition=expand | ACT -> ATTEND
+  facts: CVSS 10.0  EPSS 0.7644  KEV False  asset=internal developer workstation
+  original : A SQL injection vulnerability in the web administration and quarantine components of Micro Focus Secure Messaging Gateway allows an unauthenticated remote attacker to execute arbitrary SQL statements 
+  perturbed: A SQL injection vulnerability in the web administration and quarantine components of Micro Focus Secure Messaging Gateway allows an unauthenticated remote attacker to execute arbitrary SQL statements  
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2022-3405 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 8.8  EPSS 0.4004  KEV False  asset=hospital patient-records server
+  original : Code execution and sensitive information disclosure due to excessive privileges assigned to Acronis Agent. The following products are affected: Acronis Cyber Protect 15 (Windows, Linux) before build 2
+  perturbed: Code execution and sensitive information disclosure due to excessive privileges assigned to Acronis Agent. The following products are affected: Acronis Cyber Protect 15 (Windows, Linux) before build 2 (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2013-1916 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 8.8  EPSS 0.3477  KEV False  asset=hospital patient-records server
+  original : In WordPress Plugin User Photo 0.9.4, when a photo is uploaded, it is only partially validated and it is possible to upload a backdoor on the server hosting WordPress. This backdoor can be called (exe
+  perturbed: In WordPress Plugin User Photo 0.9.4, when a photo is uploaded, it is only partially validated and it is possible to upload a backdoor on the server hosting WordPress. This backdoor can be called (exe (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2017-5715 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 5.6  EPSS 0.8848  KEV False  asset=internal developer workstation
+  original : Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel an
+  perturbed: Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel an (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2017-5715 | condition=add_lowstakes | ACT -> TRACK
+  facts: CVSS 5.6  EPSS 0.8848  KEV False  asset=internal developer workstation
+  original : Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel an
+  perturbed: Background note: this product is used mainly by hobbyists for small personal projects. Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorize 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2017-5715 | condition=add_highstakes | ACT -> ATTEND
+  facts: CVSS 5.6  EPSS 0.8848  KEV False  asset=internal developer workstation
+  original : Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel an
+  perturbed: Background note: this product is widely deployed across large enterprise environments. Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorize 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2017-5715 | condition=expand | ACT -> ATTEND
+  facts: CVSS 5.6  EPSS 0.8848  KEV False  asset=internal developer workstation
+  original : Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel an
+  perturbed: Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel an 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2015-5556 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 10.0  EPSS 0.4702  KEV False  asset=isolated lab test machine
+  original : Use-after-free vulnerability in Adobe Flash Player before 18.0.0.232 on Windows and OS X and before 11.2.202.508 on Linux, Adobe AIR before 18.0.0.199, Adobe AIR SDK before 18.0.0.199, and Adobe AIR S
+  perturbed: Use-after-free vulnerability in Adobe Flash Player before 18.0.0.232 on Windows and OS X and before 11.2.202.508 on Linux, Adobe AIR before 18.0.0.199, Adobe AIR SDK before 18.0.0.199, and Adobe AIR S (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2006-3450 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 7.5  EPSS 0.6016  KEV False  asset=hospital patient-records server
+  original : Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementByID Javascript function to access crafted Cascading Style Sheet (CSS) elements, and pos
+  perturbed: Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementByID Javascript function to access crafted Cascading Style Sheet (CSS) elements, and pos (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2006-3450 | condition=add_lowstakes | ACT -> ATTEND
+  facts: CVSS 7.5  EPSS 0.6016  KEV False  asset=hospital patient-records server
+  original : Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementByID Javascript function to access crafted Cascading Style Sheet (CSS) elements, and pos
+  perturbed: Background note: this product is used mainly by hobbyists for small personal projects. Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementB 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2006-3450 | condition=add_highstakes | ACT -> ATTEND
+  facts: CVSS 7.5  EPSS 0.6016  KEV False  asset=hospital patient-records server
+  original : Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementByID Javascript function to access crafted Cascading Style Sheet (CSS) elements, and pos
+  perturbed: Background note: this product is widely deployed across large enterprise environments. Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementB 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2006-3450 | condition=expand | ACT -> ATTEND
+  facts: CVSS 7.5  EPSS 0.6016  KEV False  asset=hospital patient-records server
+  original : Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementByID Javascript function to access crafted Cascading Style Sheet (CSS) elements, and pos
+  perturbed: Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementByID Javascript function to access crafted Cascading Style Sheet (CSS) elements, and pos 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2006-3450 | condition=paraphrase | ACT -> ATTEND
+  facts: CVSS 7.5  EPSS 0.6016  KEV False  asset=hospital patient-records server
+  original : Microsoft Internet Explorer 6 allows remote attackers to execute arbitrary code by using the document.getElementByID Javascript function to access crafted Cascading Style Sheet (CSS) elements, and pos
+  perturbed: Microsoft Internet Explorer 6 enables remote attackers to run arbitrary code by leveraging the document.getElementByID JavaScript function to interact with specially crafted Cascading Style Sheet (CSS 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2010-2742 | condition=expand | ATTEND -> TRACK
+  facts: CVSS 5.4  EPSS 0.5574  KEV False  asset=internal developer workstation
+  original : The Netlogon RPC Service in Microsoft Windows Server 2003 SP2 and Server 2008 Gold, SP2, and R2, when the domain controller role is enabled, allows remote attackers to cause a denial of service (NULL 
+  perturbed: The Netlogon RPC Service in Microsoft Windows Server 2003 SP2 and Server 2008 Gold, SP2, and R2, when the domain controller role is enabled, allows remote attackers to cause a denial of service (NULL  
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2010-2742 | condition=paraphrase | ATTEND -> TRACK
+  facts: CVSS 5.4  EPSS 0.5574  KEV False  asset=internal developer workstation
+  original : The Netlogon RPC Service in Microsoft Windows Server 2003 SP2 and Server 2008 Gold, SP2, and R2, when the domain controller role is enabled, allows remote attackers to cause a denial of service (NULL 
+  perturbed: The Netlogon RPC Service in Microsoft Windows Server 2003 SP2 and Server 2008 (including Gold, SP2, and R2 versions), when the domain controller role is active, permits remote adversaries to trigger a 
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2018-11231 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 8.1  EPSS 0.7673  KEV False  asset=hospital patient-records server
+  original : In the Divido plugin for OpenCart, there is SQL injection. Attackers can use SQL injection to get some confidential information.
+  perturbed: In the Divido plugin for OpenCart, there is SQL injection. Attackers can use SQL injection to get some confidential information. (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2018-15139 | condition=reorder | ACT -> ATTEND
+  facts: CVSS 8.8  EPSS 0.7802  KEV False  asset=hospital patient-records server
+  original : Unrestricted file upload in interface/super/manage_site_files.php in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary PHP code by uploading a file with a 
+  perturbed: Unrestricted file upload in interface/super/manage_site_files.php in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary PHP code by uploading a file with a  (order changed; description identical)
+
+[DOWNGRADE] DeepSeek-R1-Distill-Qwen-7B | CVE-2021-21042 | condition=reorder | ATTEND -> TRACK
+  facts: CVSS 6.5  EPSS 0.4497  KEV False  asset=internet-facing production web server
+  original : Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Read vulnerability that could lead to arbitrary 
+  perturbed: Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Read vulnerability that could lead to arbitrary  (order changed; description identical)
