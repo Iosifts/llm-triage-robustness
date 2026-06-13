@@ -17,19 +17,7 @@ This project includes:
 3. Stability metrics including self-inconsistency, flip rate, downgrade rate, and over-escalation rate.
 
 ## Repository layout
-
-```text
-.
-├── pull_data.py          # build dataset.csv from NVD + EPSS + KEV
-├── run_and_score.py      # API judges via OpenRouter + scoring
-├── run_local.py          # open-weight judges on a local GPU
-├── inspect_flips.py      # qualitative before/after examples
-├── plots.py              # regenerate figures from summary CSVs
-├── requirements.txt
-├── LICENSE
-├── CLAUDE_PROJECT.md     # optional project context notes
-└── figures/              # generated figures, if present
-```
+...
 
 Generated artifacts may include:
 
